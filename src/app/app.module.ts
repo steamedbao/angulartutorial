@@ -16,12 +16,12 @@ import { HttpClientModule } from '@angular/common/http';
     AddTutorialComponent,
     TutorialDetailsComponent,
     TutorialsListComponent,
-    FormsModule,
-    HttpClientModule
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
